@@ -826,7 +826,7 @@ diabetes.</p>
 <span id="cb4-30"><a href="#cb4-30" tabindex="-1"></a>                    <span class="fu">strata</span>(smokegrp) <span class="sc">+</span> <span class="fu">strata</span>(bmi_grp) <span class="sc">+</span></span>
 <span id="cb4-31"><a href="#cb4-31" tabindex="-1"></a>                    hist.cvd <span class="sc">+</span> hist.cvd<span class="sc">:</span>albumin,</span>
 <span id="cb4-32"><a href="#cb4-32" tabindex="-1"></a>                  <span class="at">data =</span> usrds_tvc)</span></code></pre></div>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Testing whether the covariates in the model that includes albumin as a
 time-varying covariate also vary with time.
@@ -892,7 +892,7 @@ Diabetes
 </tr>
 </tbody>
 </table>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Testing whether the covariates in the model that includes albumin as a
 time-varying covariate along with an interaction with a history of CVD,
@@ -1000,7 +1000,7 @@ albumin at baseline on the risk of mortality, is</p>
 \log(\text{cholesterol}) + \beta_6 (\text{age}) + \beta_7
 1_\text{Diabetes=1}
 \end{align*}\]</span></p>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Parameter estimates, CIs and p-values for the model with baseline serum
 albumin.
@@ -1228,7 +1228,7 @@ albumin level and risk of death.</p>
 &amp; \beta_7 1_\text{Diabetes=1} + \beta_8 1_\text{CVD=1} + \beta_9
 (\text{albumin}_{t=0} \times 1_\text{CVD=1})
 \end{align*}\]</span></p>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Parameter estimates, CIs and p-values for the model with baseline serum
 albumin and an interaction with history of CVD.
@@ -1516,7 +1516,7 @@ for body mass index and smoking history as confounders.</p>
 \log(\text{cholesterol}) + \beta_6 (\text{age} + \beta_7
 1_\text{Diabetes=1}
 \end{align*}\]</span></p>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Parameter estimates, CIs and p-values for the model with time-varying
 serum albumin.
@@ -1747,7 +1747,7 @@ albumin level and risk of mortality.</p>
 &amp; \beta_7 1_\text{Diabetes=1} + \beta_8 1_\text{CVD=1} + \beta_9
 (\text{albumin}_{t=0} \times 1_\text{CVD=1})
 \end{align*}\]</span></p>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Parameter estimates, CIs and p-values for the model with time-varying
 serum albumin and an interaction with history of CVD.
@@ -2082,7 +2082,7 @@ relative to those compared here.</p>
 <h1>Appendix</h1>
 <pre><code>## 
 ## Sampling risk sets: .................................................................................................................................................................................................................................................................................</code></pre>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Parameter estimates, CIs and p-values for the nested case-control model.
 </caption>
@@ -2113,19 +2113,19 @@ P-value
 Albumin (at t=0)
 </td>
 <td style="text-align:right;">
--0.476
+-0.664
 </td>
 <td style="text-align:right;">
-0.622
+0.515
 </td>
 <td style="text-align:right;">
-0.404
+0.311
 </td>
 <td style="text-align:right;">
-0.957
+0.851
 </td>
 <td style="text-align:right;">
-0.031
+0.010
 </td>
 </tr>
 <tr>
@@ -2133,19 +2133,19 @@ Albumin (at t=0)
 Race = Black
 </td>
 <td style="text-align:right;">
--0.307
+-0.568
 </td>
 <td style="text-align:right;">
-0.736
+0.567
 </td>
 <td style="text-align:right;">
-0.477
+0.351
 </td>
 <td style="text-align:right;">
-1.135
+0.914
 </td>
 <td style="text-align:right;">
-0.165
+0.020
 </td>
 </tr>
 <tr>
@@ -2153,19 +2153,19 @@ Race = Black
 Race = Other
 </td>
 <td style="text-align:right;">
-0.628
+0.770
 </td>
 <td style="text-align:right;">
-1.874
+2.160
 </td>
 <td style="text-align:right;">
-0.833
+0.898
 </td>
 <td style="text-align:right;">
-4.216
+5.197
 </td>
 <td style="text-align:right;">
-0.129
+0.085
 </td>
 </tr>
 <tr>
@@ -2173,19 +2173,19 @@ Race = Other
 Appeared Undernourished
 </td>
 <td style="text-align:right;">
-0.606
+0.797
 </td>
 <td style="text-align:right;">
-1.832
+2.218
 </td>
 <td style="text-align:right;">
-1.127
+1.298
 </td>
 <td style="text-align:right;">
-2.979
+3.792
 </td>
 <td style="text-align:right;">
-0.015
+0.004
 </td>
 </tr>
 <tr>
@@ -2193,19 +2193,19 @@ Appeared Undernourished
 Log(Cholesterol)
 </td>
 <td style="text-align:right;">
--0.561
+0.021
 </td>
 <td style="text-align:right;">
-0.571
+1.021
 </td>
 <td style="text-align:right;">
-0.295
+0.476
 </td>
 <td style="text-align:right;">
-1.106
+2.191
 </td>
 <td style="text-align:right;">
-0.096
+0.956
 </td>
 </tr>
 <tr>
@@ -2213,16 +2213,16 @@ Log(Cholesterol)
 Age
 </td>
 <td style="text-align:right;">
-0.048
+0.044
 </td>
 <td style="text-align:right;">
-1.050
+1.045
 </td>
 <td style="text-align:right;">
-1.032
+1.027
 </td>
 <td style="text-align:right;">
-1.067
+1.063
 </td>
 <td style="text-align:right;">
 0.000
@@ -2233,26 +2233,26 @@ Age
 Diabetes
 </td>
 <td style="text-align:right;">
-0.387
+0.491
 </td>
 <td style="text-align:right;">
-1.473
+1.633
 </td>
 <td style="text-align:right;">
-0.977
+1.047
 </td>
 <td style="text-align:right;">
-2.220
+2.548
 </td>
 <td style="text-align:right;">
-0.065
+0.031
 </td>
 </tr>
 </tbody>
 </table>
 <pre><code>## 
 ## Sampling risk sets: .................................................................................................................................................................................................................................................................................</code></pre>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Parameter estimates, CIs and p-values for the nested case-control model
 with an interaction.
@@ -2284,19 +2284,19 @@ P-value
 Albumin (at t=0)
 </td>
 <td style="text-align:right;">
--0.751
+-1.504
 </td>
 <td style="text-align:right;">
-0.472
+0.222
 </td>
 <td style="text-align:right;">
-0.209
+0.094
 </td>
 <td style="text-align:right;">
-1.066
+0.527
 </td>
 <td style="text-align:right;">
-0.071
+0.001
 </td>
 </tr>
 <tr>
@@ -2304,19 +2304,19 @@ Albumin (at t=0)
 Race = Black
 </td>
 <td style="text-align:right;">
--0.095
+0.016
 </td>
 <td style="text-align:right;">
-0.909
+1.016
 </td>
 <td style="text-align:right;">
-0.562
+0.643
 </td>
 <td style="text-align:right;">
-1.470
+1.607
 </td>
 <td style="text-align:right;">
-0.698
+0.945
 </td>
 </tr>
 <tr>
@@ -2324,19 +2324,19 @@ Race = Black
 Race = Other
 </td>
 <td style="text-align:right;">
--0.137
+0.233
 </td>
 <td style="text-align:right;">
-0.872
+1.263
 </td>
 <td style="text-align:right;">
-0.352
+0.510
 </td>
 <td style="text-align:right;">
-2.159
+3.127
 </td>
 <td style="text-align:right;">
-0.766
+0.614
 </td>
 </tr>
 <tr>
@@ -2344,19 +2344,19 @@ Race = Other
 Appeared Undernourished
 </td>
 <td style="text-align:right;">
-0.437
+0.770
 </td>
 <td style="text-align:right;">
-1.548
+2.159
 </td>
 <td style="text-align:right;">
-0.899
+1.272
 </td>
 <td style="text-align:right;">
-2.664
+3.664
 </td>
 <td style="text-align:right;">
-0.115
+0.004
 </td>
 </tr>
 <tr>
@@ -2364,19 +2364,19 @@ Appeared Undernourished
 Log(Cholesterol)
 </td>
 <td style="text-align:right;">
--0.763
+0.031
 </td>
 <td style="text-align:right;">
-0.466
+1.031
 </td>
 <td style="text-align:right;">
-0.222
+0.485
 </td>
 <td style="text-align:right;">
-0.981
+2.193
 </td>
 <td style="text-align:right;">
-0.044
+0.936
 </td>
 </tr>
 <tr>
@@ -2384,16 +2384,16 @@ Log(Cholesterol)
 Age
 </td>
 <td style="text-align:right;">
-0.038
+0.032
 </td>
 <td style="text-align:right;">
-1.039
+1.032
 </td>
 <td style="text-align:right;">
-1.020
+1.015
 </td>
 <td style="text-align:right;">
-1.058
+1.050
 </td>
 <td style="text-align:right;">
 0.000
@@ -2404,19 +2404,19 @@ Age
 Diabetes
 </td>
 <td style="text-align:right;">
-0.418
+0.686
 </td>
 <td style="text-align:right;">
-1.519
+1.985
 </td>
 <td style="text-align:right;">
-0.918
+1.207
 </td>
 <td style="text-align:right;">
-2.516
+3.263
 </td>
 <td style="text-align:right;">
-0.104
+0.007
 </td>
 </tr>
 <tr>
@@ -2424,19 +2424,19 @@ Diabetes
 History of CVD
 </td>
 <td style="text-align:right;">
--1.907
+-4.598
 </td>
 <td style="text-align:right;">
-0.148
+0.010
 </td>
 <td style="text-align:right;">
-0.004
+0.000
 </td>
 <td style="text-align:right;">
-5.067
+0.340
 </td>
 <td style="text-align:right;">
-0.290
+0.010
 </td>
 </tr>
 <tr>
@@ -2444,24 +2444,24 @@ History of CVD
 Albumin (over time) x History of CVD
 </td>
 <td style="text-align:right;">
-0.834
+1.384
 </td>
 <td style="text-align:right;">
-2.303
+3.990
 </td>
 <td style="text-align:right;">
-0.888
+1.531
 </td>
 <td style="text-align:right;">
-5.972
+10.397
 </td>
 <td style="text-align:right;">
-0.086
+0.005
 </td>
 </tr>
 </tbody>
 </table>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Likelihood ratio test for comparing the model with the interaction to
 the one without.
@@ -2493,7 +2493,7 @@ P-value
 </tr>
 </tbody>
 </table>
-<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 The results of the log-rank test before and after stratifying by
 confounders BMI and smoking history. Without adjusting for the
