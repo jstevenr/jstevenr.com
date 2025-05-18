@@ -20,12 +20,6 @@ navbar:
           href: matern-spatial.html
         - text: "Sexual network exponential random graph modeling"
           href: ergm_models.html
-        - text: "Classifying wine quality"
-          href: wine-classification.html
-        - text: "Forecasting bitcoin value"
-          href: bitcoin.html
-        - text: "Predicting housing prices"
-          href: housing-prices.html
         - text: "Play Gomoku using Shiny"
           href: ggomoku.html
     - text: "Contact Me"
@@ -59,11 +53,6 @@ Data scientist with a strong academic background and expertise in statistical an
 * **Languages**
     + Spanish (B1), Portuguese (B1)
 
-## Research Experience
-
-* **University of California, Irvine**, Mar 2022 - Jun 2022
-    + Collaborated with Dr. Veronica Berrocal to analyze and visualize the spatial distribution of immune system cells relative to cancer outcome. Employed advanced statistical techniques and designed custom R functions to handle large-scale spatial data.
-
 ## Work Experience
 
 * **Research Data Specialist**, [State of California, Department of Social Services](https://cdss.ca.gov), Dec 2023 - Present
@@ -79,3 +68,8 @@ demographics.
     + Implemented predictive analytics solutions to identify trends and patterns in large datasets, contributing to data-driven decision-making.
     + Created a multiple linear regression pricing model in R, resulting in improved pricing strategies for a client’s business.
     + Developed interactive dashboards using Power BI, SAP Analytics Cloud, and BrightGauge to visualize key performance indicators and track business metrics.
+
+## Research Experience
+
+* **University of California, Irvine**, Mar 2022 - Jun 2022
+    + Collaborated with Dr. Veronica Berrocal to analyze and visualize the spatial distribution of immune system cells relative to cancer outcome. Employed advanced statistical techniques and designed custom R functions to handle large-scale spatial data.

@@ -34,12 +34,6 @@ navbar:
           href: matern-spatial.html
         - text: "Sexual network exponential random graph modeling"
           href: ergm_models.html
-        - text: "Classifying wine quality"
-          href: wine-classification.html
-        - text: "Forecasting bitcoin value"
-          href: bitcoin.html
-        - text: "Predicting housing prices"
-          href: housing-prices.html
         - text: "Play Gomoku using Shiny"
           href: ggomoku.html
     - text: "Contact Me"

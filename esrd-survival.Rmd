@@ -35,12 +35,6 @@ navbar:
           href: matern-spatial.html
         - text: "Sexual network exponential random graph modeling"
           href: ergm_models.html
-        - text: "Classifying wine quality"
-          href: wine-classification.html
-        - text: "Forecasting bitcoin value"
-          href: bitcoin.html
-        - text: "Predicting housing prices"
-          href: housing-prices.html
         - text: "Play Gomoku using Shiny"
           href: ggomoku.html
     - text: "Contact Me"
@@ -1370,12 +1364,6 @@ usrds %>%
 # K-M plot comparing high vs low baseline albumin
 albumin0_survfit <- survfit2(Surv(tdeath, death) ~ albumin0_grp + hist.cvd, data = usrds)
 
-albumin0_survfit %>% 
-  tbl_survfit(
-    times = 365.25,
-    label_header = "**1-year survival (95% CI)**"
-  )
-
 # kaplan-meier estimate plot
 ggsurvfit(albumin0_survfit) +
   labs(x = "Days", 
@@ -1400,11 +1388,11 @@ cvd_survfit <-
       mutate(hist.cvd = factor(hist.cvd, levels = c("Y","N"), 
                                labels = c("yes", "no"))))
 
-cvd_survfit %>% 
-  tbl_survfit(
-    times = 365.25,
-    label_header = "**1-year survival (95% CI)**"
-  )
+#cvd_survfit %>% 
+#  tbl_survfit(
+#    times = 365.25,
+#    label_header = "**1-year survival (95% CI)**"
+#  )
 
 # kaplan-meier estimate plot
 ggsurvfit(cvd_survfit) +
