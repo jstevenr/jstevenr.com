@@ -37,8 +37,6 @@ navbar:
 
 ----
 
-<left><img src="images/self_prof.jpg" width="308px" height="410px"></left>
-
 Welcome and thank you for visiting my website! My name is J. Steven Raquel and I am proud to call myself a scientist who makes a difference. I currently work with the State of California's Department of Social Services in the Analysis and Modeling Unit within the Research, Automation, and Data Division. I graduated from the University of California, Irvine with an M.S. in Statistics in 2023, and from the University of California, Santa Barbara, with a B.S. in Statistical Science in 2018. 
 
 Find out more about [who I am](about_me.html) and [what I've done](resume.html).

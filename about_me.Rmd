@@ -35,8 +35,6 @@ navbar:
 
 ----
 
-<left><img src="images/graduation_photo.png" width="400px" height="600px"></left>
-
 # Introduction
 
 My name is J. Steven Raquel. I graduated from the University of California, Irvine with an M.S. in Statistics in 2023, and from the University of California, Santa Barbara, with a B.S. in Statistical Science in 2018. I am currently employed with California Department of Social Services with the classification of Research Data Specialist. Apart from proudly representing my home state as a public servant, I am also proud to call myself a child of immigrants, a person of color, and a member of the LGBTQ+ community. 
